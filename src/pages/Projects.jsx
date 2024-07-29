@@ -44,20 +44,20 @@ const Projects = () => {
               </p>
               <div className="mt-4 flex gap-4">
                <a
-  href={project.repo}
-  className="inline-flex items-center px-4 py-2 font-semibold rounded-lg shadow-md bg-blue-600 text-white hover:bg-blue-800"
+  href={project.githubLink}
+  className="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-md shadow-md bg-blue-600 text-white hover:bg-blue-800 cursor-pointer"
   target="_blank"
   rel="noopener noreferrer"
 >
-  Repo
+  Source Code
 </a>
 <a
-  href={project.live}
-  className="inline-flex items-center px-4 py-2 font-semibold rounded-lg shadow-md bg-blue-600 text-white hover:bg-blue-800"
+  href={project.deployedLink}
+  className="inline-flex items-center px-3 py-1.5 text-sm font-semibold rounded-md shadow-md bg-blue-600 text-white hover:bg-blue-800 cursor-pointer"
   target="_blank"
   rel="noopener noreferrer"
 >
-  Live
+  See Live
 </a>
               </div>
             </div>
