@@ -1,4 +1,4 @@
-import {ecom,portfolioIcon} from "../assets/images";
+import {ecom,portfolioIcon,weatherIcon} from "../assets/images";
 import {
     contact,
     css,
@@ -99,19 +99,27 @@ export const socialLinks = [
 ];
 export const projects = [
     {
-      name: "E-commerce Platform",
-      icon: ecom,
-      description: "Developed a responsive e-commerce platform using React, Next.js, and Tailwind CSS with Wix headless CMS. Features include dynamic product listings, search, filtering, a custom slider, and a robust cart system. Integrated user authentication, checkout, and server-side actions for seamless data management and user experience...",
-      githubLink: "", 
-      deployedLink: "", 
-      theme: "bg-blue-600",
-    },
+    name: "Weather App",
+    icon: weatherIcon,
+    description:"Developed a Weather App that provides real-time weather updates with an easy-to-use interface. Get current weather conditions, forecasts, and temperature details instantly.",
+    githubLink: "https://github.com/HanzalaKhan07/weather-app",
+    deployedLink: "https://myweatherlive.vercel.app/",
+    theme: "bg-blue-600",
+  },
     {
         name: "3D Portfolio",
         icon:portfolioIcon,
       description: "Developed a dynamic 3D portfolio website utilizing Three.js, showcasing my skills and projects through an immersive and interactive user experience. Integrated complex animations, model handling, and responsive design to create a visually engaging digital showcase.",
       githubLink: "https://github.com/HanzalaKhan07/3d-Portfolio-app", 
       deployedLink: "https://3d-portfolio-app-omega.vercel.app",
+      theme: "bg-blue-600",
+    },
+     {
+      name: "E-commerce Platform",
+      icon: ecom,
+      description: "Developed a responsive e-commerce platform using React, Next.js, and Tailwind CSS with Wix headless CMS. Features include dynamic product listings, search, filtering, a custom slider, and a robust cart system. Integrated user authentication, checkout, and server-side actions for seamless data management and user experience...",
+      githubLink: "", 
+      deployedLink: "", 
       theme: "bg-blue-600",
     },
   ];
