@@ -11,5 +11,5 @@ export {
     ecom,
     portfolioIcon,
     mindIcon,
-    weatherIcon.png
+    weatherIcon
 }
